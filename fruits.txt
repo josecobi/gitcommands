@@ -1,0 +1,5 @@
+git init - turns a folder into a git repo
+git status - checks the status of the work we've done inside of the folder
+git add <filename> - Used to stage work from the work area to the staging area
+git commit -m "Type your Message" - creates history of our work
+git log - checks the list all of our commit
