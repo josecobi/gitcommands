@@ -12,3 +12,13 @@ git switch <branch_name> - This allows us to move to another branch
 git merge <name of the branch you wish to merge to the main branch>
 git branch -m <current_name> <new_name> - This allows us to change a branch name
 git reset --hard HEAD~1 -  Undo the last commit
+
+=============================================================
+
+git remote -v - shows your remote configuration. If you don't see anything, that means you are not connected to any repository in the cloud. So create one in GitHub (or other similar platform), 
+after creating it, the next screen shows the instructions to connect your local Git repository with your Github repository in the cloud:
+    -   git remote add origin https://github.com/<your GitHub username/<yourNewGitHubRepository.git>
+    -   git remote -v - to verify the code above worked
+    -   git branch -M main - When you use this command, you are effectively renaming the branch you are currently on to the new name specified.
+    ALWAYS CHECK IN FIRST WHICH BRANCH YOU ARE AT AND MAKE SURE TO CHECK IF IT IS THE ONE THAT NEEDS TO BE RENAMED.
+    -   git push -u origin main
