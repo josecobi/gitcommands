@@ -3,3 +3,12 @@ git status - checks the status of the work we've done inside of the folder
 git add <filename> - Used to stage work from the work area to the staging area
 git commit -m "Type your Message" - creates history of our work
 git log - checks the list all of our commit
+
+========================================================================
+
+git branch - This allows us to list all of our branches (The current branch is marked with an asterisk)
+git branch <branch_name> - This allows us to create new branches in our repository
+git switch <branch_name> - This allows us to move to another branch
+git merge <name of the branch you wish to merge to the main branch>
+git branch -m <current_name> <new_name> - This allows us to change a branch name
+git reset --hard HEAD~1 -  Undo the last commit
